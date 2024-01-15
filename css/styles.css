@@ -681,7 +681,7 @@ max-width: 264px;
 }
 
 .modal-input-name:focus + .modal-input-name-svg {
-  fill: #404bbf;
+  fill: #4D5AE5;
 }
 
 .modal-div-textarea {
