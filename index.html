@@ -461,6 +461,7 @@
           <form name="mailsub" class="footer-form">
             <label class="footer-label">
               <input
+                required
                 name="subscription"
                 type="email"
                 placeholder="E-mail"
@@ -495,6 +496,7 @@
             <label for="user-name" class="modal-label-name"> Name </label>
             <div class="modal-label-div">
               <input
+                required
                 name="user-name"
                 id="user-name"
                 type="text"
@@ -510,6 +512,7 @@
             <label class="modal-label-name"> Phone </label>
             <div class="modal-label-div">
               <input
+                required
                 name="phone"
                 id="phone"
                 type="tel"
@@ -525,6 +528,7 @@
             <label class="modal-label-name"> Email </label>
             <div class="modal-label-div">
               <input
+                required
                 class="modal-input-name"
                 type="email"
                 id="email"
@@ -542,8 +546,8 @@
               id="user-comment"
               cols="30"
               rows="10"
-              placeholder="Text input"
               class="modal-textarea"
+              placeholder="Text input"
             ></textarea>
           </div>
 
@@ -557,15 +561,18 @@
             />
 
             <label for="user-privacy" class="modal-label-checkbox">
-              I accept the terms and conditions of the
               <span class="checkbox-span">
                 <svg width="10" height="8" class="checkbox-svg">
-                  <use href="./images/icons.svg#checkbox"></use>
-                </svg> </span
-              ><a href="" class="privacy-link">Privacy Policy</a></label
+                  <use href="./images/icons.svg#checkmark"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="privacy-link">Privacy Policy</a></label
             >
           </div>
-          <button type="submit" class="moadal-form-button">Send</button>
+          <div class="submit-button">
+            <button type="submit" class="moadal-form-button">Send</button>
+          </div>
         </form>
       </div>
     </div>
