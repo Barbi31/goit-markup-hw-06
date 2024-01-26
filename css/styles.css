@@ -819,10 +819,10 @@ max-width: 264px;
   margin-left: 16px;
   fill: #ffffff;
 }
-/*
-::placeholder {
+
+.footer-subscribe .footer-form .footer-label .footer-form-input::placeholder {
   color: #ffffff;
-}*/
+}
 
 input:checked + .modal-label-checkbox span:first-child {
   background-color: #404bbf;
